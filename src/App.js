@@ -6,6 +6,7 @@ import Home from './components/home'
 import Controls from './components/controls'
 import About from './components/about'
 import ScoreboardDisplay from './components/scoreboard'
+import SaveScore from './components/saveScore'
 // import Scoreboard from './components/scoreboard'
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -19,6 +20,7 @@ function App() {
       <Route path="/controls" exact component={Controls}/>
       <Route path="/about" exact component={About}/>
       <Route path="/scoreboard" exact component={ScoreboardDisplay}/>
+      <Route path="/addscore" exact component={SaveScore}/>
     </Router>
   );
 }
