@@ -15,11 +15,24 @@
     "start": "react-scripts start",
     "build": "CI= react-scripts build",
     "test": "react-scripts test --coverage --watchAll=false",
-    "eject": "react-scripts eject",
-    "lint": "eslint src/**/*.js src/**/*.jsx"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+      "root": true,
+      "env": {
+          "node": true
+      },
+      "extends": [
+        "react-app",
+          "plugin:vue/essential",
+          "eslint:recommended"
+      ],
+      "parserOptions": {
+          "parser": "babel-eslint"
+      },
+      "rules": { 
+          "no-unused-vars": "off" 
+      }
   },
   "browserslist": {
     "production": [
