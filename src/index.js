@@ -22,17 +22,6 @@ ReactDOM.render(
 );
 
 
-function gameOver() {
-  if (Score.infectionRate >= 1) {
-    Scoreboard.add(Score.distance)
-
-    console.log(Scoreboard.board)
-  } else {
-    return
-  }
-}
-
-
 let canvas = document.getElementById("gameScreen");
 // only loads the canvas if the id "gamescreen" has been found
 if (canvas != null){
@@ -44,7 +33,6 @@ if (canvas != null){
 
 
   var hero = new Hero();
-  var levels = new Levels(hero)
   const background = new Background();
   var input = new Input(hero);
   var game = new Game(hero, GAME_WIDTH, GAME_HEIGHT, input);
