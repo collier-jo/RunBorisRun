@@ -17,8 +17,8 @@ function App() {
       <Route path="/" exact component={Home}/>
       <Route path="/play" exact component={Play}/>
       <Route path="/controls" exact component={Controls}/>
-      <Route path="/about" exact component={About}/>
       <Route path="/scoreboard" exact component={ScoreboardDisplay}/>
+      <Route path="/about" exact component={About}/>
     </Router>
   );
 }
