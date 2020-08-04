@@ -37,7 +37,7 @@ export default class SpawnObjects {
   _spawnPlatforms(){
     let random = Math.floor(Math.random() * (5)) + 0
 
-    if (random == 0){
+    if (random === 0){
       this.platforms.push(new Platform('./assets/pavement.png', 1600, 500, 100, 200))
       this.platforms.push(new Platform('./assets/pavement.png', 1900, 700, 100, 1600))
     }
