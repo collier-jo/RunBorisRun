@@ -25,7 +25,7 @@ export default class SpawnObjects {
   _updatePlatforms(ctx){
     for (var i = 0; i < this.platforms.length; i++){
       this.platforms[i].draw(ctx)
-      if (this.platforms[i].right < 1500 && this.platforms[i].top == 700){
+      if (this.platforms[i].right < 1500 && this.platforms[i].top === 700){
         if (this.platforms.length < 2){
           this._spawnPlatforms()
         }
@@ -42,24 +42,24 @@ export default class SpawnObjects {
       this.platforms.push(new Platform('./assets/pavement.png', 1900, 700, 100, 1600))
     }
 
-    if (random == 1){
+    if (random === 1){
       this.platforms.push(new Platform('./assets/pavement.png', 1600, 500, 100, 200))
       this.platforms.push(new Platform('./assets/pavement.png', 1900, 500, 100, 200))
       this.platforms.push(new Platform('./assets/pavement.png', 2300, 700, 100, 1600))
     }
 
-    if (random == 2){
+    if (random === 2){
       this.platforms.push(new Platform('./assets/pavement.png', 1600, 500, 100, 200))
       this.platforms.push(new Platform('./assets/pavement.png', 1700, 300, 100, 200))
       this.platforms.push(new Platform('./assets/pavement.png', 2300, 700, 100, 1600))
     }
 
-    if (random == 3){
+    if (random === 3){
       this.platforms.push(new Platform('./assets/pavement.png', 1600, 700, 100, 400))
       this.platforms.push(new Platform('./assets/pavement.png', 2200, 700, 100, 1600))
     }
 
-    if (random == 4){
+    if (random === 4){
       this.platforms.push(new Platform('./assets/pavement.png', 1600, 700, 100, 1600))
       this.platforms.push(new Platform('./assets/pavement.png', 2300, 500, 100, 200))
       this.platforms.push(new Platform('./assets/pavement.png', 3500, 700, 100, 1600))
