@@ -15,7 +15,7 @@ export default class Input {
       e = e || window.event
 
       var key_state = (e.type === "keydown")?true:false;
-
+// eslint-disable-next-line
       switch(e.keyCode){
         // default:
         //   // this.keyUp = true;

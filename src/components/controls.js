@@ -1,4 +1,3 @@
-import keyboard from '../images/full_keyboard.png';
 import upKey from '../images/up_key.png';
 import leftKey from '../images/left_key.png'
 import rightKey from '../images/right_key.png'
@@ -19,12 +18,12 @@ function Controls(){
           <div>
             <center>
               <div class="grid-item">
-              <img src={leftKey} id="left_key"></img>
+              <img src={leftKey} alt="leftkey" id="left_key"></img>
               <p> Use "Left Key" to walk left</p>
               </div>
 
               <div class="grid-item">
-              <img src={muteKey} id="mute_key"></img>
+              <img src={muteKey} alt="mutekey" id="mute_key"></img>
               <p> Use "M Key" to mute audio </p>
               </div>
             </center>
@@ -33,17 +32,17 @@ function Controls(){
          <div>
           <center>
             <div class="grid-item">
-            <img src={upKey} id="up_key"></img>
+            <img src={upKey} alt="upkey" id="up_key"></img>
             <p> Use "Up Key" to jump </p>
             </div>
 
             <div class="grid-item">
-            <img src={unMuteKey} id="unmute_key"></img>
+            <img src={unMuteKey} alt="unmutekey" id="unmute_key"></img>
             <p> Use "N Key" to unmute audio </p>
             </div>
 
             <div class="grid-item">
-            <img src={unpause} id="unpause"></img>
+            <img src={unpause} alt="pausekey" id="unpause"></img>
             <p> Use "O Key" to unpause game </p>
             </div>
          </center>
@@ -52,12 +51,12 @@ function Controls(){
         <div>
          <center>
             <div class="grid-item">
-            <img src={rightKey} id="right_key"></img>
+            <img src={rightKey} alt="rightkey" id="right_key"></img>
             <p> Use "Right Key" to walk right </p>
             </div>
 
             <div class="grid-item">
-            <img src={pause} id="pause"></img>
+            <img src={pause} alt="pausekey" id="pause"></img>
             <p> Use "P Key" to pause game </p>
             </div>
          </center>

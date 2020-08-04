@@ -1,5 +1,3 @@
-import Score from '../src/score'
-
 import jumpMP3 from "../src/media/jump.mp3"
 import bumpMP3 from "../src/media/bump.mp3"
 import music from "../src/media/bgm.mp3"

@@ -18,21 +18,12 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-      "root": true,
-      "env": {
-          "node": true
-      },
-      "extends": [
-        "react-app",
-          "plugin:vue/essential",
-          "eslint:recommended"
-      ],
-      "parserOptions": {
-          "parser": "babel-eslint"
-      },
-      "rules": { 
-          "no-unused-vars": "off" 
-      }
+    "extends": [
+      "react-app"
+    ],
+    "rules": {
+      "eqeqeq": "off"
+    }
   },
   "browserslist": {
     "production": [

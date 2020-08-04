@@ -155,7 +155,7 @@ export default class DetectCollision{
   }
 
   _heroHit(){
-    if(this.frames != 30) {
+    if(this.frames !== 30) {
       this.frames += 1
       this.infected = false
     } else {

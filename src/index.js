@@ -11,8 +11,6 @@ import DetectCollision from '../src/detectCollision'
 import Game from './game'
 import SFX from '../src/sfx'
 import SpawnObjects from '../src/spawnObjects'
-import Levels from './levels';
-import Scoreboard from './scoreboard'
 
 ReactDOM.render(
   <React.StrictMode>
