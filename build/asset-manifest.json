@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89d84290.chunk.css",
+    "main.js": "/static/js/main.0ddb8a09.chunk.js",
+    "main.js.map": "/static/js/main.0ddb8a09.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3dbb435c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3dbb435c.js.map",
+    "static/js/2.34113d28.chunk.js": "/static/js/2.34113d28.chunk.js",
+    "static/js/2.34113d28.chunk.js.map": "/static/js/2.34113d28.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.81b1274c4934d25e963e6159f86191e9.js": "/precache-manifest.81b1274c4934d25e963e6159f86191e9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.89d84290.chunk.css.map": "/static/css/main.89d84290.chunk.css.map",
+    "static/js/2.34113d28.chunk.js.LICENSE.txt": "/static/js/2.34113d28.chunk.js.LICENSE.txt",
+    "static/media/Game-screenshot.png": "/static/media/Game-screenshot.4c6b5a5e.png",
+    "static/media/bgm.mp3": "/static/media/bgm.0c5a46c1.mp3",
+    "static/media/bump.mp3": "/static/media/bump.965fc871.mp3",
+    "static/media/hit.mp3": "/static/media/hit.05f2cee3.mp3",
+    "static/media/jellies.mp3": "/static/media/jellies.a443b0c3.mp3",
+    "static/media/jump.mp3": "/static/media/jump.44dd0c2e.mp3",
+    "static/media/stayAtHome.mp3": "/static/media/stayAtHome.5bca4d50.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3dbb435c.js",
+    "static/js/2.34113d28.chunk.js",
+    "static/css/main.89d84290.chunk.css",
+    "static/js/main.0ddb8a09.chunk.js"
+  ]
+}
