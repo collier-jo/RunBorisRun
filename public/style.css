@@ -86,6 +86,10 @@ height: 300px;
   height: 100px;
 }
 
+#submitScore {
+  visibility: hidden;
+}
+
 
 /* #keyboard {
   flex: 1;
@@ -93,7 +97,3 @@ height: 300px;
   width: 1000;
   resizeMode: "contain"
 } */
-
-#submitScore {
-  visibility: hidden;
-}

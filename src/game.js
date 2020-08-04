@@ -1,6 +1,8 @@
 import Score from '../src/score'
 import SFX from '../src/sfx'
+
 export default class Game {
+
   constructor(hero, game_width, game_height, input){
     this.game_width = game_width
     this.game_height = game_height
@@ -10,6 +12,7 @@ export default class Game {
     this.input = input
     this.sfx = new SFX();
   }
+
   draw(ctx){
     if(Score.infectionRate >= 1 || this.hero.position.y === 730){
     this.gameOver = true
@@ -18,6 +21,7 @@ export default class Game {
   } else {this.paused = false}
   this.gameStateText(ctx);
   }
+
   gameStateText(ctx){
     ctx.rect(0, 0, this.gameWidth, this.gameHeight);
     ctx.fillStyle = "rgba(0,0,0,0.3)";
