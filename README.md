@@ -11,7 +11,7 @@ Play the game [Here](https://run-boris-run.netlify.app/)
 Covid-game, a.k.a 'Run Boris, Run!', is a game developed to pass the time in quarantine whilst also practising your social distancing skills (virtually of course!).
 
 ## Instructions
-Welcome to "our game".
+Welcome to "our game"..
 
 Covid has struck the world. You must now adapt to survive.
 
