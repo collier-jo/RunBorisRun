@@ -9,7 +9,7 @@ class ScoreboardDisplay extends React.Component {
   };
 
   componentDidMount(){
-    this.fetchData('http://localhost:3001/')
+    this.fetchData('https://afternoon-fjord-26832.herokuapp.com/')
   }
 
   fetchData = (apiToFetch) => {

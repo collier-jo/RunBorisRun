@@ -28,7 +28,7 @@ function Play(){
       score: score
     }
 
-    fetch('http://localhost:3001/new', {
+    fetch('https://afternoon-fjord-26832.herokuapp.com/new', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json'},
         body: JSON.stringify(newScore)
