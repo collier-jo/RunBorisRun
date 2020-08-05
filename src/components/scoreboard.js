@@ -31,8 +31,8 @@ class ScoreboardDisplay extends React.Component {
     }
     else if(sorted.length > 0){
       sorted.forEach((item, i) => {
-        console.log(item)
-        var score = item.name + " " + item.score
+        var decimalScore = item.score.toFixed(2)
+        var score = item.name + " " + "-" + " " + " " + decimalScore + "M"
         displayInfo.push(score)
       });
     }

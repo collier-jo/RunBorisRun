@@ -97,3 +97,23 @@ height: 300px;
   width: 1000;
   resizeMode: "contain"
 } */
+
+#submitScoreForm {
+  margin: 50px
+}
+.form::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family:'arcadeclassicregular', Arial, sans-serif;
+    opacity: 1; /* Firefox */
+  }
+
+#score-info {
+  margin-top: 50px;
+}
+
+#submitButton {
+  margin-top: 25px;
+}
+
+#nameinput {
+  margin-top: 25px;
+}

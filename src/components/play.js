@@ -47,14 +47,21 @@ function Play(){
       <center>
         <canvas id="gameScreen" width="1500" height="800"></canvas>
         <div id="submitScore">
-        <h2> Game over </h2>
-        <h3>Your distance was: </h3>
-        <h3 id="score">Score</h3>
-        <p> Enter your name to save your score! </p>
-        <form id="submitScoreForm" onSubmit={mySubmitHandler}>
-          <input id="name" type="text" placeholder="Type your name here" onChange={myChangeHandler}></input>
-          <input type="submit" id="submitButton" class="button" value="Submit"></input>
-        </form>
+        <h1> Game over </h1>
+        <div id="score-info">
+
+          <p>Your distance was: </p>
+          <p id="score">Score</p>
+          
+          <form id="submitScoreForm" onSubmit={mySubmitHandler}>
+            <p> Enter your name to save your score! </p> 
+            <input id="name" type="text" placeholder="Type your name here" class="form" onChange={myChangeHandler}></input> <br></br>
+            <input type="submit" id="submitButton" class="button" value="Submit"></input>
+          </form>
+
+
+        </div>
+        
         </div>
       </center>
     </div>
