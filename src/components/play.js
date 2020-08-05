@@ -55,7 +55,7 @@ function Play(){
           
           <form id="submitScoreForm" onSubmit={mySubmitHandler}>
             <p> Enter your name to save your score! </p> 
-            <input id="name" type="text" placeholder="Type your name here" class="form" onChange={myChangeHandler}></input> <br></br>
+            <input id="name" type="text" id="nameinput" placeholder="Type your name here" class="form" onChange={myChangeHandler}></input> <br></br>
             <input type="submit" id="submitButton" class="button" value="Submit"></input>
           </form>
 
