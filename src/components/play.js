@@ -25,6 +25,16 @@ function Play(){
       .then((response) => {
         console.log(response)
       })
+
+      replay()
+  }
+
+  const replay = () => {
+    var form = document.getElementById("score-info")
+    form.setAttribute("style", "visibility: hidden")
+
+    var button = document.getElementById("replay")
+    button.setAttribute("style", "visibility: visible")
   }
 
   const myChangeHandler = (event) => {
@@ -37,6 +47,8 @@ function Play(){
         <canvas id="gameScreen" width="1500" height="800"></canvas>
         <div id="submitScore">
         <h1> Game over </h1>
+
+        <a href="/play" className="button" id="replay">Replay</a>
         <div id="score-info">
 
           <p>Your distance was: </p>
@@ -48,6 +60,8 @@ function Play(){
             <input type="submit" id="submitButton" class="button" value="Submit"></input>
           </form>
         </div>
+
+        
 
         <p id="hiddenscore">Score</p>
         </div>
