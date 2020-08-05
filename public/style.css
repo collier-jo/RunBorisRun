@@ -117,3 +117,7 @@ height: 300px;
 #nameinput {
   margin-top: 25px;
 }
+
+#hiddenscore {
+  visibility: hidden;
+}

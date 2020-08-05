@@ -33,7 +33,12 @@ export default class Game {
       this.sfx.stayAtHome.play()
       ctx.fillText("Game Over", this.game_width / 2, this.game_height - 600);
       var score = document.getElementById("score")
+      score.innerHTML = Score.distance.toFixed(2) + " M"
+
+      var score = document.getElementById("hiddenscore")
       score.innerHTML = Score.distance
+
+
       setTimeout(function(){
         document.getElementById("gameScreen").setAttribute("style", "display:none")
         document.getElementById("submitScore").setAttribute("style", "visibility:visible") 

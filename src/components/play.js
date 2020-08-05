@@ -3,29 +3,18 @@ import { useState } from 'react';
 
 function Play(){
 
-  const [score, setScore] = useState(0);
-
   const [name, setName] = useState('');
-
-  // const importScore = () => {
-  //   var scoreGame = document.getElementById("score")
-  //   var score = scoreGame.innerHTML
-  //   var numberScore = parseFloat(score)
-  //   setScore(numberScore)
-  // }
 
   const mySubmitHandler = (event) => {
     event.preventDefault()
     console.log('my submit handler called')
 
-    var scoreGame = document.getElementById("score")
-    var score = scoreGame.innerHTML
-    var numberScore = parseFloat(score)
-    setScore(numberScore)
+    var scoreGame = document.getElementById("hiddenscore")
+    var scoreNum = scoreGame.innerHTML
 
     let newScore = {
       name: name,
-      score: score
+      score: scoreNum
     }
 
     fetch('https://afternoon-fjord-26832.herokuapp.com/new', {
@@ -58,10 +47,9 @@ function Play(){
             <input id="name" type="text" id="nameinput" placeholder="Type your name here" class="form" onChange={myChangeHandler}></input> <br></br>
             <input type="submit" id="submitButton" class="button" value="Submit"></input>
           </form>
-
-
         </div>
-        
+
+        <p id="hiddenscore">Score</p>
         </div>
       </center>
     </div>
